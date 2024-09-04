@@ -63,7 +63,7 @@ function submit()
    div.id="first-div";
     if(name.value&&number.value&&email.value)
     {   
-    div.innerHTML=    `<div class="user-image"><img src="${image.value}"></div>
+    div.innerHTML=    `<div class="user-image"><img src="${image.value}" alt="https://static.vecteezy.com/system/resources/thumbnails/019/879/186/small/user-icon-on-transparent-background-free-png.png"></div>
                       <div>
                      <div><i class="fa-solid fa-user"></i><h4>${name.value}<a href="#"onclick="remove(event)"><i style='font-size:14px' class="fa-solid fa-trash"></i></a>`+" "+`<a href="#" onclick="edit(event)"><i style='font-size:14px' class='fas'>&#xf044;</i></a></h4></div>
                       <div><i class="fa-solid fa-phone"></i><p class='number'>${number.value}<a href="#"onclick="remove(event)"><i style='font-size:14px' class="fa-solid fa-trash"></i></a>`+" "+`<a href="#" onclick="edit(event)"><i style='font-size:14px' class='fas'>&#xf044;</i></a></p></div>
