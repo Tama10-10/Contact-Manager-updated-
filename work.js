@@ -61,7 +61,7 @@ function submit()
 {
    let div=document.createElement('div');
    div.id="first-div";
-    if( image.value&&name.value&&number.value&&email.value)
+    if(name.value&&number.value&&email.value)
     {   
     div.innerHTML=    `<div class="user-image"><img src="${image.value}"></div>
                       <div>
