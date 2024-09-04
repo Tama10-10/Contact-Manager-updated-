@@ -140,7 +140,7 @@ function load()
         div.id="first-div";
        
           
-         div.innerHTML=    `<div class="user-image"><img src="${contacts[i].image}" alt="https://static.vecteezy.com/system/resources/thumbnails/019/879/186/small/user-icon-on-transparent-background-free-png.png"></div>
+         div.innerHTML=    `<div class="user-image"><img src="${contacts[i].image}"onerror="this.onerror=null; this.src='https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=612x612&w=0&k=20&c=dhV2p1JwmloBTOaGAtaA3AW1KSnjsdMt7-U_3EZElZ0=';"></div>
                            <div>
                           <div><i class="fa-solid fa-user"></i><h4>${contacts[i].name}<a href="#"onclick="remove(event)"><i style='font-size:14px' class="fa-solid fa-trash"></i></a>`+" "+`<a href="#" onclick="edit(event)"><i style='font-size:14px' class='fas'>&#xf044;</i></a></h4></div>
                            <div><i class="fa-solid fa-phone"></i><p class='number'>${contacts[i].number}<a href="#"onclick="remove(event)"><i style='font-size:14px' class="fa-solid fa-trash"></i></a>`+" "+`<a href="#" onclick="edit(event)"><i style='font-size:14px' class='fas'>&#xf044;</i></a></p></div>
